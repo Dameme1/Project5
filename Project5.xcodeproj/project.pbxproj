@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A08F38FA29D0C9AD003D9F4A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F38F929D0C9AD003D9F4A /* Post.swift */; };
+		A08F38FD29D0CBE7003D9F4A /* DateFormatter + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F38FC29D0CBE7003D9F4A /* DateFormatter + Extensions.swift */; };
+		A0AA105629CE526C0024C2BC /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA105529CE526C0024C2BC /* FeedTableViewCell.swift */; };
+		A0AA105829CE54A60024C2BC /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA105729CE54A60024C2BC /* PostViewController.swift */; };
+		A0AA106229CE57DF0024C2BC /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0AA106129CE57DF0024C2BC /* ParseSwift */; };
+		A0AA106529CE58760024C2BC /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = A0AA106429CE58760024C2BC /* AlamofireImage */; };
+		A0AA106829CE60120024C2BC /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA106729CE60120024C2BC /* Users.swift */; };
 		A0D87A3C29CE39C1005515E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D87A3B29CE39C1005515E3 /* AppDelegate.swift */; };
 		A0D87A3E29CE39C1005515E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D87A3D29CE39C1005515E3 /* SceneDelegate.swift */; };
-		A0D87A4029CE39C1005515E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D87A3F29CE39C1005515E3 /* ViewController.swift */; };
+		A0D87A4029CE39C1005515E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D87A3F29CE39C1005515E3 /* LoginViewController.swift */; };
 		A0D87A4329CE39C1005515E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D87A4129CE39C1005515E3 /* Main.storyboard */; };
 		A0D87A4529CE39C2005515E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D87A4429CE39C2005515E3 /* Assets.xcassets */; };
 		A0D87A4829CE39C2005515E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D87A4629CE39C2005515E3 /* LaunchScreen.storyboard */; };
+		A0D87A5029CE3EE1005515E3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D87A4F29CE3EE1005515E3 /* SignUpViewController.swift */; };
+		A0D87A5229CE41DE005515E3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D87A5129CE41DE005515E3 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A08F38F929D0C9AD003D9F4A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A08F38FC29D0CBE7003D9F4A /* DateFormatter + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter + Extensions.swift"; sourceTree = "<group>"; };
+		A0AA105529CE526C0024C2BC /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		A0AA105729CE54A60024C2BC /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		A0AA106729CE60120024C2BC /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		A0D87A3829CE39C1005515E3 /* Project5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D87A3B29CE39C1005515E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D87A3D29CE39C1005515E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0D87A3F29CE39C1005515E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0D87A3F29CE39C1005515E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A0D87A4229CE39C1005515E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0D87A4429CE39C2005515E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D87A4729CE39C2005515E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0D87A4929CE39C2005515E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D87A4F29CE3EE1005515E3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A0D87A5129CE41DE005515E3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +47,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AA106229CE57DF0024C2BC /* ParseSwift in Frameworks */,
+				A0AA106529CE58760024C2BC /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A08F38FB29D0CBD7003D9F4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A08F38FC29D0CBE7003D9F4A /* DateFormatter + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0AA105929CE54D20024C2BC /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A0D87A5129CE41DE005515E3 /* FeedViewController.swift */,
+				A0AA105529CE526C0024C2BC /* FeedTableViewCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A0AA105A29CE54EB0024C2BC /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA105729CE54A60024C2BC /* PostViewController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		A0AA105B29CE55030024C2BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A0D87A3F29CE39C1005515E3 /* LoginViewController.swift */,
+				A0D87A4F29CE3EE1005515E3 /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A0AA106629CE5FDA0024C2BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA106729CE60120024C2BC /* Users.swift */,
+				A08F38F929D0C9AD003D9F4A /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A0D87A2F29CE39C1005515E3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +117,17 @@
 		A0D87A3A29CE39C1005515E3 /* Project5 */ = {
 			isa = PBXGroup;
 			children = (
+				A08F38FB29D0CBD7003D9F4A /* Extensions */,
+				A0AA106629CE5FDA0024C2BC /* Models */,
 				A0D87A3B29CE39C1005515E3 /* AppDelegate.swift */,
 				A0D87A3D29CE39C1005515E3 /* SceneDelegate.swift */,
-				A0D87A3F29CE39C1005515E3 /* ViewController.swift */,
 				A0D87A4129CE39C1005515E3 /* Main.storyboard */,
-				A0D87A4429CE39C2005515E3 /* Assets.xcassets */,
 				A0D87A4629CE39C2005515E3 /* LaunchScreen.storyboard */,
+				A0D87A4429CE39C2005515E3 /* Assets.xcassets */,
 				A0D87A4929CE39C2005515E3 /* Info.plist */,
+				A0AA105B29CE55030024C2BC /* Login */,
+				A0AA105929CE54D20024C2BC /* Feed */,
+				A0AA105A29CE54EB0024C2BC /* Post */,
 			);
 			path = Project5;
 			sourceTree = "<group>";
@@ -83,6 +148,10 @@
 			dependencies = (
 			);
 			name = Project5;
+			packageProductDependencies = (
+				A0AA106129CE57DF0024C2BC /* ParseSwift */,
+				A0AA106429CE58760024C2BC /* AlamofireImage */,
+			);
 			productName = Project5;
 			productReference = A0D87A3829CE39C1005515E3 /* Project5.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +180,10 @@
 				Base,
 			);
 			mainGroup = A0D87A2F29CE39C1005515E3;
+			packageReferences = (
+				A0AA106029CE57DF0024C2BC /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				A0AA106329CE58760024C2BC /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = A0D87A3929CE39C1005515E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D87A4029CE39C1005515E3 /* ViewController.swift in Sources */,
+				A0AA106829CE60120024C2BC /* Users.swift in Sources */,
+				A0D87A4029CE39C1005515E3 /* LoginViewController.swift in Sources */,
+				A0AA105629CE526C0024C2BC /* FeedTableViewCell.swift in Sources */,
+				A0AA105829CE54A60024C2BC /* PostViewController.swift in Sources */,
 				A0D87A3C29CE39C1005515E3 /* AppDelegate.swift in Sources */,
+				A0D87A5229CE41DE005515E3 /* FeedViewController.swift in Sources */,
+				A08F38FA29D0C9AD003D9F4A /* Post.swift in Sources */,
+				A0D87A5029CE3EE1005515E3 /* SignUpViewController.swift in Sources */,
+				A08F38FD29D0CBE7003D9F4A /* DateFormatter + Extensions.swift in Sources */,
 				A0D87A3E29CE39C1005515E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +438,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0AA106029CE57DF0024C2BC /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		A0AA106329CE58760024C2BC /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0AA106129CE57DF0024C2BC /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0AA106029CE57DF0024C2BC /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+		A0AA106429CE58760024C2BC /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0AA106329CE58760024C2BC /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0D87A3029CE39C1005515E3 /* Project object */;
 }
